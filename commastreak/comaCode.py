@@ -1,3 +1,8 @@
+"""
+Exercise from "automate the boring stuff with python"
+https://automatetheboringstuff.com/2e/chapter4/
+"""
+
 def pretty(data):
     if len(data) == 0:
         print("nothing to do here")

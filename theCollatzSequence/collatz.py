@@ -1,3 +1,7 @@
+""" 
+Exercise from "automate the boring stuff with python"
+https://automatetheboringstuff.com/2e/chapter3/
+"""
 def collatz(number):
     if number % 2 == 0:
         value = number // 2
@@ -15,15 +19,12 @@ def valid(intNum, txt=""):
             n = int(input(intNum))
             break
         except ValueError:
-            print("EU DISSE INTEIRO!!!")
+            print("Only integer values allowed")
     return n
 
-""" Escrever um programa que  permite o usuário enviar um número
-inteiro e continuará chamando a função collatz no número até 
-retonranr o valor 1"""
 
-print("O mais simples problema impossível")
-num = valid("Digite um número inteiro") 
+print("The simplest impossible problem")
+num = valid("enter a integer") 
 v = num
 
 while True:

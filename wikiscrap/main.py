@@ -1,3 +1,7 @@
+"""
+Webscraping a random wikipedia page :D 
+"""
+
 import requests
 from os import system
 from bs4 import BeautifulSoup as bsoup
